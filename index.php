@@ -1,10 +1,10 @@
 <html>
   <head>
-    <title>AWS CloudFormation PHP Sample</title>
+    <title>AWS Userdata PHP Sample</title>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   </head>
   <body>
-    <h1>Welcome to the AWS CloudFormation PHP Sample</h1>
+    <h1>Welcome to the AWS USER DATA PHP Sample</h1>
     <p/>
     <?php
       // Print out the current data and time
@@ -39,15 +39,7 @@
       {
         print "EC2 instance-id = " . $instanceid . "<br />";
       }
-      $Database   = "localhost";
-      $DBUser     = "tec";
-      $DBPassword = "sdffg43rr";
-      print "Database = " . $Database . "<br />";
-      $dbconnection = mysql_connect($Database, $DBUser, $DBPassword)
-                      or die("Could not connect: " . mysql_error());
-      print ("Connected to $Database successfully");
-      mysql_close($dbconnection);
-    ?>
+     ?>
     <h2>PHP Information</h2>
     <p/>
     <?php
